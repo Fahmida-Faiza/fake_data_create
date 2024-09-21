@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.presentation-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel,
+.right-panel {
+  width: 200px;
+}
+
+.main-slide-area {
+  flex-grow: 1;
+  position: relative;
+  overflow: auto;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  position: relative;
+}
